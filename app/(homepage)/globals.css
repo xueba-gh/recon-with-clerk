@@ -5,8 +5,12 @@
   :root,
   html,
   body {
-    height: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
   }
+  
+  /* app/globals.css */
 
   @layer base {
     :root {
@@ -80,3 +84,15 @@
       @apply bg-background text-foreground;
     }
   }
+
+/* My global CSS styles here */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
