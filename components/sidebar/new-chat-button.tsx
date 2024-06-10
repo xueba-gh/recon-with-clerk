@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { api } from "@/convex/_generated/api";
-import ConvexClientProvider from "@/providers/convex-client-provider";
+import ConvexClientProvider from "@/app/providers/convex-client-provider";
 import { useMutation } from "convex/react";
 import { PlusCircle, SquarePen } from "lucide-react";
 

@@ -9,7 +9,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     return res.status(401).json({ error: "Unauthorized" });
   }
 
-  // retrieve data from your database
+  // retrieve data from the database
 
   res.status(200).json({});
 }

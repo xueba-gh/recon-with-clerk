@@ -9,7 +9,7 @@ import {
     PopoverTrigger,
 } from "@/components/ui/popover"
 import { useState } from "react";
-import { GPTModel } from "@/lib/types";
+import { GPTModel } from "@/app/lib/types";
 import { Checkbox } from "@/components/ui/checkbox";
 
 //import { UpgradeModal } from "./upgrade-modal";

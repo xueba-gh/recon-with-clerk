@@ -1,18 +1,26 @@
+// app/sign-in/page.tsx
+
 import { SignIn } from "@clerk/nextjs";
+import { dark } from "@clerk/themes";
 
 const styles = {
   container: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    height: "100vh", // Take up the full height of the viewport
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh',
   },
 };
 
-export default function Page() {
+export default function SignInPage() {
   return (
     <div style={styles.container}>
-      <SignIn />
+      <SignIn
+        appearance={{
+          baseTheme: dark,
+        }}
+        path="/sign-in"
+      />
     </div>
   );
 }

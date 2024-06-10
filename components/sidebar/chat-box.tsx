@@ -1,6 +1,6 @@
 import { api } from "@/convex/_generated/api";
 import { Doc } from "@/convex/_generated/dataModel";
-import { cn } from "@/lib/utils";
+import { cn } from "@/app/lib/utils";
 import { useMutation } from "convex/react";
 import { ArrowDownToLine, Pencil, Trash2 } from "lucide-react";
 import { useRouter } from "next/navigation";
