@@ -53,12 +53,3 @@ const Homepage = () => {
 
 
 export default Homepage;
-
-// export default function HomePage() {
-//   return (
-//     <div>
-//       <h1>Welcome to ReconAI</h1>
-//       <Chatbot />
-//     </div>
-//   );
-// }

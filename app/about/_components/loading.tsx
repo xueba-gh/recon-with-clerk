@@ -4,7 +4,7 @@ export const Loading = () => {
     return (
         <main className="flex flex-col w-full h-full items-center justify-center bg-red-800">
             <Image
-                src={"public/next.svg"}
+                src={"public/grey.svg"}
                 alt="logo"
                 width={200}
                 height={200}
